@@ -1,7 +1,7 @@
-var EventEmitter = require("./EventEmitter").EventEmitter;
+const EventEmitter = require("./EventEmitter").EventEmitter;
 
-var emitter = new EventEmitter();
-let eventNames = {
+const emitter = new EventEmitter();
+const eventNames = {
     CLICK: "CLICK"
 };
 
